@@ -173,7 +173,7 @@ export const providersData: Providers = {
             url: 'https://www.omgserv.com/en/',
             description: translate({
                 id: 'providers.provider.omgserv.description',
-                message: "Select Geyser in the [Install Menu](https://i.imgur.com/Gewpsrq.png), it will be automatically installed. You can enable floodgate in the [server properties on the dashboard](https://i.imgur.com/jg5mzNj.png)."
+                message: "Select Geyser in the [Install Menu](https://i.imgur.com/Gewpsrq.png), it will be automatically installed. You can enable floodgate in the [server properties on the dashboard](https://i.imgur.com/jg5mzNv.png)."
             })
         },
         {
@@ -626,6 +626,11 @@ export const providersData: Providers = {
         {
             name: 'TNAHosting',
             url: 'https://tnahosting.net/',
+            description: descriptionTemplates.default
+        },
+        {
+            name: 'Tropical Host',
+            url: 'https://tropicalhost.net/',
             description: descriptionTemplates.default
         },
         {
